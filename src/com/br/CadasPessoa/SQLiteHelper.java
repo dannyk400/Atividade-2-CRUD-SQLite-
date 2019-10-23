@@ -11,6 +11,8 @@ class SQLiteHelper extends SQLiteOpenHelper {
  
     private String[] scriptSQLCreate;
     private String scriptSQLDelete;
+    
+    //qwerty
  
     /**
      * Cria uma instância de SQLiteHelper
