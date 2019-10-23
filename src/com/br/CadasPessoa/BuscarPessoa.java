@@ -57,7 +57,7 @@ public class BuscarPessoa extends Activity implements OnClickListener {
         }
     }
  
-    // Busca um carro pelo nome
+    // Busca uma pessoa pelo nome
     protected Pessoa buscarPessoa(String nomePessoa) {
         Pessoa pessoa = CadastroPessoa.repositorio.buscarPessoaPorNome(nomePessoa);
         return pessoa;
