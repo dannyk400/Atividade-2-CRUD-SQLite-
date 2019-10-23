@@ -7,7 +7,7 @@ public class RepositorioPessoaScript extends RepositorioPessoa {
 
     private static final String SCRIPT_DATABASE_DELETE = "DROP TABLE IF EXISTS pessoa";
  
-                  //Criando nossa Tabela Pessoa
+                  //Criando e insirindo dados na nossa tabela Pessoa
     
     private static final String[] SCRIPT_DATABASE_CREATE = new String[] {
         "create table pessoa ( _id integer primary key autoincrement, nome text not null, cpf text not null,idade text not null);",
