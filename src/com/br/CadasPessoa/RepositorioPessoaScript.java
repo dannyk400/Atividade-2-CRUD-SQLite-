@@ -10,9 +10,9 @@ public class RepositorioPessoaScript extends RepositorioPessoa {
 
     private static final String[] SCRIPT_DATABASE_CREATE = new String[] {
         "create table pessoa ( _id integer primary key autoincrement, nome text not null, cpf text not null,idade text not null);",
-        "insert into pessoa(nome,cpf,idade) values('Jeferson Zonta','123412332332',21);",
-        "insert into pessoa(nome,cpf,idade) values('Ambrozio silva','56784564564',60);",
-        "insert into pessoa(nome,cpf,idade) values('Edinando A.','5465631565',19);" };
+        "insert into pessoa(nome,cpf,idade) values('Tatiane Silva','8004848473993930',26);",
+        "insert into pessoa(nome,cpf,idade) values('Daniel','90403887468',29);",
+        "insert into pessoa(nome,cpf,idade) values('Cleber','07474848391',35);" };
  
 
     private static final String NOME_BANCO = "baco_dados";
