@@ -48,25 +48,22 @@ public class Pessoa {
         private Pessoas() {
         }
      
-        public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY 
-        + "/pessoas");
+        public static final Uri CONTENT_URI = Uri.parse("content://" + 
+        AUTHORITY + "/pessoas");
      
-        public static final String CONTENT_TYPE = 
-        "vnd.android.cursor.dir/vnd.google.pessoas";
+        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.google.pessoas";
      
-        public static final String CONTENT_ITEM_TYPE = 
-        "vnd.android.cursor.item/vnd.google.pessoas";
+        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.google.pessoas";
      
         public static final String DEFAULT_SORT_ORDER = "_id ASC";
      
         public static final String NOME = "nome";
         public static final String CPF = "cpf";
-        public static final String IDADE = "IDADE";
+        public static final String IDADE = "idade";
      
         public static Uri getUriId(long id) {
             // Adiciona o id na URI default do /pessoas
-            Uri uriPessoas = ContentUris
-            .withAppendedId(Pessoas.CONTENT_URI, id);
+            Uri uriPessoas = ContentUris.withAppendedId(Pessoas.CONTENT_URI, id);
             return uriPessoas;
         }
     }

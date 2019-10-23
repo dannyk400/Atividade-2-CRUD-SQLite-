@@ -83,7 +83,7 @@ public class CadastroPessoa extends ListActivity {
         super.onActivityResult(codigo, codigoRetorno, it);
  
         // Quando a activity EditarPessoa retornar, seja se foi para 
-       // adicionar vamos atualizar a lista 
+       // adicionar vamos atualizar a lista -->
         if (codigoRetorno == RESULT_OK) {
             // atualiza a lista na tela
             atualizarLista();
